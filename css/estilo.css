@@ -6,19 +6,58 @@ h2{
 }
 
         #container {
-        background-color: #yellow;
+        background-color: #ecdfcc;
         margin-left:20%;
         margin-right:20%;height:600px;
-        font-family: 'Calibri', 'Arial', sans-serif
+        font-family: 'Calibri', 'Arial', sans-serif;
       }
 
 
-      #color{
-        color: #33ff00;
-        font-family: "arial narrow", 'Atala', 'verdana',serif;
-        }
+nav{
+  background-color: #1b1a1a;
+  padding: 0.002% 0 0.002% 0;
+  border-radius: 15px;
+}
 
 
-        #java{
-          color: yellow;
-      }
+#color li{
+  display: inline;
+  padding: 0 6.5% 0 6.5%;
+}
+#color li a{
+  text-decoration: none;
+  font-family: "Tahoma",serif;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 15px;
+  transition: color 1s, font-size 2s;
+  padding: 0.5%;
+}
+
+/*Pseudo classes*/
+#color li a:visited{
+  color: #fff;
+}
+#color li a:link{
+  color: #fff;
+}
+#color li a:hover{
+  background-color: #fff;
+  color: #1b1a1a;
+  font-size: 20px;
+}
+.tit-pag-init{
+  position: absolute;
+  left: 43%;
+}
+.img-logo-init{
+  position: relative;
+  top: 10%;
+  width: 10%;
+}
+.img-conteiner{
+  position: relative;
+  top: 10%;
+  right: 10%;
+}
